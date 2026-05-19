@@ -17,7 +17,7 @@ spec:
         app: pythontest
     spec:
       containers:
-      - image: 172.19.0.4:4000/pythontest:latest
+      - image: 172.19.0.1:4000/pythontest:latest
         name: pythontest
         ports:
         - containerPort: 5000

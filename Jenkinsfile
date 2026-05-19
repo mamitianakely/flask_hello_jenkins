@@ -53,7 +53,7 @@ spec:
                     sh """
                         /kaniko/executor \
                         --context=. \
-                        --destination=172.19.0.4:4000/pythontest:latest \
+                        --destination=172.19.0.1:4000/pythontest:latest \
                         --insecure \
                         --skip-tls-verify
                     """
