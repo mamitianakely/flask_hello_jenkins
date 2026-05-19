@@ -11,7 +11,7 @@ metadata:
 spec:
   containers:
   - name: python
-    image: python:3.7
+    image: python:3.11
     command:
     - cat
     tty: true
