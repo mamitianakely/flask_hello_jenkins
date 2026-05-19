@@ -25,7 +25,7 @@ spec:
         stage('Test python') {
             steps {
                 container('python') {
-                    sh "pip install -r requirements.txt"
+                    sh "pip install --timeout=120 -r requirements.txt"
                     sh "python test.py"
                 }
             }
