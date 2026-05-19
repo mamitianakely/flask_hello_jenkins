@@ -26,3 +26,8 @@ class TestHello(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()()
+
+def test_new_route(self):
+    name = 'Simon'
+    rv = self.app.get(f'/feature/{name}')
+    self.assertEqual(rv.status, '200 OK')
